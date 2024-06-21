@@ -1,0 +1,24 @@
+{"nnData":
+  {
+    "nnName": "app_diagnostics/nn_models/LSTM_4H_0-02t_hs64_nl4.pth",
+    "nnPath": "app_diagnostics/nn_models/"},
+  "scalarData":
+  {
+    "minValues": [0, 0, 0],
+    "maxValues": [1350, 50, 3.7],
+    "nominal_speed": [1380],
+    "nominal_current": [3.7]
+  },
+  "fileData":
+  {
+    "allColumnsName": ["N", "f", "is","Predict"],
+    "allAxisXName": ["N", "f", "is", "status"]
+  },
+  "OPCData":
+  {
+    "opcName": "Schneider-Aut.OFS",
+    "speed": "Motor_diagn!speed_rpm1",
+    "freq": "Motor_diagn!out_freq",
+    "current": "Motor_diagn!I_stator"
+  }
+}
